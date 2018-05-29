@@ -5,9 +5,12 @@ public class GitTest {
 	public static int findConflict(int x, int y) {
 		System.out.println(x);
 		System.out.println(y);
+
 		System.out.println(x+y);
 		return x+y;
 	}
+
+		
 	
 	public static void main(String args[]) {
 		

@@ -3,6 +3,16 @@ package test.git;
 public class GitTest {
 	public static void main(String args[]) {
 		
-		String gitName ="gitHub";
+		char upperChar = 'A';
+		char lowerChar ='a';
+		
+		for (int i = 0; i < 26; i++) {
+			System.out.printf("%c",upperChar+i);
+			System.out.printf("%c",lowerChar+i);
+			System.out.print("  ");
+			
+		}
+			
+		
 	}
 }

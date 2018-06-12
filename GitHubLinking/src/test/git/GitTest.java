@@ -1,5 +1,7 @@
 package test.git;
 
+import java.util.Scanner;
+
 public class GitTest {
 	
 	public static int findConflict(int x, int y) {
@@ -17,11 +19,12 @@ public class GitTest {
 		char upperChar = 's';
 		char lowerChar ='a';
 		
+		Scanner scanner = new Scanner(System.in );
 		for (int i = 0; i < 26; i++) {
 			System.out.printf("%c",upperChar+i);
 			System.out.printf("%c",lowerChar+i);
 			System.out.print("  ");
-			
+			i--;
 		}
 			
 		
